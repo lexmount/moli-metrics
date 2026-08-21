@@ -6,7 +6,7 @@ on:
   workflow_dispatch:
 
 permissions:
-  contents: write
+  contents: read # the push authenticates with the deploy key, not GITHUB_TOKEN
 
 concurrency:
   group: update-star-history
@@ -16,6 +16,10 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with:
+          # Push over SSH with a deploy key: main requires a PR, and the deploy
+          # key is the ruleset's only bypass actor. GITHUB_TOKEN cannot push here.
+          ssh-key: ${{ secrets.SSH_DEPLOY_KEY }}
 
       - name: Fetch stars and regenerate charts
         env:
