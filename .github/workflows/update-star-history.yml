@@ -2,7 +2,7 @@ name: Update star history
 
 on:
   schedule:
-    - cron: "17 2 * * 1" # weekly, Monday 02:17 UTC — low frequency by design
+    - cron: "23 * * * *" # hourly; off-the-hour to dodge peak scheduler load
   workflow_dispatch:
 
 permissions:
@@ -41,4 +41,5 @@ jobs:
             exit 0
           fi
           git commit -m "chore: update star history ($(date -u +%F))"
+          git pull --rebase --quiet # a PR merge may have landed since checkout
           git push
