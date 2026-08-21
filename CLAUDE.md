@@ -17,7 +17,7 @@ assets/
 scripts/
   update_star_history.py        # stdlib-only Python; fetches data AND renders both SVGs
 .github/workflows/
-  update-star-history.yml       # weekly schedule + workflow_dispatch; commits only on change
+  update-star-history.yml       # hourly schedule + workflow_dispatch; commits only on change
 ```
 
 `data/` and `assets/` are generated output — never hand-edit them; change the script and re-run. The script has two data modes: **timeline** (reconstructs full history from the stargazer timeline API; needs a privileged token) with fallback to **snapshot** (appends the current count as one point per run). Chart colors follow the dataviz reference palette; keep light/dark variants visually equivalent.
@@ -26,7 +26,7 @@ Future scope may add other **public** metrics: forks, contributors, release down
 
 ## Design constraints (deliberate decisions — do not undo)
 
-- **Weekly update cadence, not daily.** Low-frequency updates are a deliberate choice to keep commit noise minimal. Do not tighten the schedule without being asked.
+- **Hourly checks, but commits only on real change.** The owner asked for hourly freshness on 2026-08-21, replacing the original weekly cadence. Commit noise is held down by the script itself, not by the schedule: it compares the live star count against `data/stars.json` and returns without writing a single byte when they match. Preserve that early exit — regenerating unconditionally would rewrite the `updated` date and the SVG date caption at every UTC midnight and commit a date-only diff, which is exactly what the low-frequency schedule originally existed to prevent.
 - **This repo must stay public.** Anonymous users must be able to load the raw SVGs from moli's README. Private/internal metrics (GitHub traffic, referral sources, conversion data) do NOT belong here — they would go in a separate private repo.
 - **Token setup:** the workflow reads the `STAR_HISTORY_TOKEN` Actions secret — a fine-grained PAT or GitHub App token with read access to `lexmount/moli` stargazers. The default `GITHUB_TOKEN` belongs to moli-metrics and cannot read moli's stargazer timeline — GitHub restricted stargazer timeline access to repo admins/collaborators in July 2026, which is also why third-party services like star-history.com can no longer generate the chart and this repo exists. Without the secret the workflow still succeeds in snapshot mode.
 - **Repo public, credentials private:** data, SVGs, workflows, and generation code are all public; tokens live only in Actions Secrets.

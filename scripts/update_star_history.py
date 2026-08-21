@@ -100,10 +100,8 @@ def fetch_timeline_samples(current_count, today):
     return samples
 
 
-def snapshot_samples(current_count, today):
-    samples = []
-    if DATA_PATH.exists():
-        samples = json.loads(DATA_PATH.read_text())["samples"]
+def snapshot_samples(stored, current_count, today):
+    samples = stored["samples"] if stored else []
     if samples and samples[-1]["date"] == today:
         samples[-1]["stars"] = current_count
     else:
@@ -188,11 +186,21 @@ def render_svg(samples, theme, updated):
 def main():
     today = datetime.now(timezone.utc).strftime("%Y-%m-%d")
     current = fetch_current_count()
+    stored = json.loads(DATA_PATH.read_text()) if DATA_PATH.exists() else None
+
+    # The star count is the only input that can change the output, so when it
+    # matches what is already stored, write nothing at all. Runs are hourly:
+    # regenerating would rewrite the "updated" date every UTC midnight and
+    # commit a date-only diff. This also keeps the common case to one API call.
+    if stored and stored["samples"] and stored["samples"][-1]["stars"] == current:
+        print(f"{TARGET_REPO}: {current:,} stars — unchanged, nothing written")
+        return
+
     try:
         samples, source = fetch_timeline_samples(current, today), "timeline"
     except (urllib.error.HTTPError, ValueError) as e:
         print(f"timeline unavailable ({e}); falling back to snapshot", file=sys.stderr)
-        samples, source = snapshot_samples(current, today), "snapshot"
+        samples, source = snapshot_samples(stored, current, today), "snapshot"
 
     DATA_PATH.parent.mkdir(exist_ok=True)
     DATA_PATH.write_text(
