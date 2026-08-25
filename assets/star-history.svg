@@ -1,14 +1,14 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="800" height="420" viewBox="0 0 800 420"
   font-family="system-ui, -apple-system, Segoe UI, sans-serif" role="img"
-  aria-label="Star history of lexmount/moli: 1,104 stars as of 2026-08-25">
+  aria-label="Star history of lexmount/moli: 1,107 stars as of 2026-08-25">
   <rect x="0.5" y="0.5" width="799" height="419" rx="8" fill="#fcfcfb" stroke="rgba(11,11,11,0.10)"/>
   <text x="24" y="36" fill="#0b0b0b" font-size="18" font-weight="600">lexmount/moli</text>
   <text x="24" y="57" fill="#52514e" font-size="12.5">GitHub star history &#183; updated 2026-08-25</text>
   <line x1="64" y1="276.0" x2="712" y2="276.0" stroke="#e1e0d9" stroke-width="1"/><text x="54" y="280.0" text-anchor="end" fill="#898781" font-size="11" style="font-variant-numeric:tabular-nums">500</text><line x1="64" y1="176.0" x2="712" y2="176.0" stroke="#e1e0d9" stroke-width="1"/><text x="54" y="180.0" text-anchor="end" fill="#898781" font-size="11" style="font-variant-numeric:tabular-nums">1,000</text><line x1="64" y1="76.0" x2="712" y2="76.0" stroke="#e1e0d9" stroke-width="1"/><text x="54" y="80.0" text-anchor="end" fill="#898781" font-size="11" style="font-variant-numeric:tabular-nums">1,500</text>
   <line x1="64" y1="376" x2="712" y2="376" stroke="#c3c2b7" stroke-width="1"/>
   <text x="64.0" y="398" text-anchor="middle" fill="#898781" font-size="11" style="font-variant-numeric:tabular-nums">Aug 10</text><text x="280.0" y="398" text-anchor="middle" fill="#898781" font-size="11" style="font-variant-numeric:tabular-nums">Aug 15</text><text x="496.0" y="398" text-anchor="middle" fill="#898781" font-size="11" style="font-variant-numeric:tabular-nums">Aug 20</text><text x="712.0" y="398" text-anchor="middle" fill="#898781" font-size="11" style="font-variant-numeric:tabular-nums">Aug 25</text>
-  <path d="M64.0 373.4 L107.2 362.4 L150.4 348.6 L193.6 331.8 L236.8 323.2 L280.0 311.2 L323.2 295.8 L366.4 282.4 L409.6 263.2 L452.8 244.6 L496.0 222.0 L539.2 204.8 L582.4 190.6 L625.6 180.2 L668.8 161.8 L712.0 155.2 L712.0 376 L64.0 376 Z" fill="#2a78d6" fill-opacity="0.1"/>
-  <path d="M64.0 373.4 L107.2 362.4 L150.4 348.6 L193.6 331.8 L236.8 323.2 L280.0 311.2 L323.2 295.8 L366.4 282.4 L409.6 263.2 L452.8 244.6 L496.0 222.0 L539.2 204.8 L582.4 190.6 L625.6 180.2 L668.8 161.8 L712.0 155.2" fill="none" stroke="#2a78d6" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
-  <circle cx="712.0" cy="155.2" r="5" fill="#2a78d6" stroke="#fcfcfb" stroke-width="2"/>
-  <text x="724.0" y="160.2" fill="#0b0b0b" font-size="14" font-weight="600">&#9733; 1,104</text>
+  <path d="M64.0 373.4 L107.2 362.4 L150.4 348.6 L193.6 331.8 L236.8 323.2 L280.0 311.2 L323.2 295.8 L366.4 282.4 L409.6 263.2 L452.8 244.6 L496.0 222.0 L539.2 204.8 L582.4 190.6 L625.6 180.2 L668.8 161.8 L712.0 154.6 L712.0 376 L64.0 376 Z" fill="#2a78d6" fill-opacity="0.1"/>
+  <path d="M64.0 373.4 L107.2 362.4 L150.4 348.6 L193.6 331.8 L236.8 323.2 L280.0 311.2 L323.2 295.8 L366.4 282.4 L409.6 263.2 L452.8 244.6 L496.0 222.0 L539.2 204.8 L582.4 190.6 L625.6 180.2 L668.8 161.8 L712.0 154.6" fill="none" stroke="#2a78d6" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+  <circle cx="712.0" cy="154.6" r="5" fill="#2a78d6" stroke="#fcfcfb" stroke-width="2"/>
+  <text x="724.0" y="159.6" fill="#0b0b0b" font-size="14" font-weight="600">&#9733; 1,107</text>
 </svg>
