@@ -1,14 +1,14 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="800" height="420" viewBox="0 0 800 420"
   font-family="system-ui, -apple-system, Segoe UI, sans-serif" role="img"
-  aria-label="Star history of lexmount/moli: 1,532 stars as of 2026-08-31">
+  aria-label="Star history of lexmount/moli: 1,534 stars as of 2026-08-31">
   <rect x="0.5" y="0.5" width="799" height="419" rx="8" fill="#fcfcfb" stroke="rgba(11,11,11,0.10)"/>
   <text x="24" y="36" fill="#0b0b0b" font-size="18" font-weight="600">lexmount/moli</text>
   <text x="24" y="57" fill="#52514e" font-size="12.5">GitHub star history &#183; updated 2026-08-31</text>
   <line x1="64" y1="301.0" x2="712" y2="301.0" stroke="#e1e0d9" stroke-width="1"/><text x="54" y="305.0" text-anchor="end" fill="#898781" font-size="11" style="font-variant-numeric:tabular-nums">500</text><line x1="64" y1="226.0" x2="712" y2="226.0" stroke="#e1e0d9" stroke-width="1"/><text x="54" y="230.0" text-anchor="end" fill="#898781" font-size="11" style="font-variant-numeric:tabular-nums">1,000</text><line x1="64" y1="151.0" x2="712" y2="151.0" stroke="#e1e0d9" stroke-width="1"/><text x="54" y="155.0" text-anchor="end" fill="#898781" font-size="11" style="font-variant-numeric:tabular-nums">1,500</text><line x1="64" y1="76.0" x2="712" y2="76.0" stroke="#e1e0d9" stroke-width="1"/><text x="54" y="80.0" text-anchor="end" fill="#898781" font-size="11" style="font-variant-numeric:tabular-nums">2,000</text>
   <line x1="64" y1="376" x2="712" y2="376" stroke="#c3c2b7" stroke-width="1"/>
   <text x="64.0" y="398" text-anchor="middle" fill="#898781" font-size="11" style="font-variant-numeric:tabular-nums">Aug 10</text><text x="280.0" y="398" text-anchor="middle" fill="#898781" font-size="11" style="font-variant-numeric:tabular-nums">Aug 17</text><text x="496.0" y="398" text-anchor="middle" fill="#898781" font-size="11" style="font-variant-numeric:tabular-nums">Aug 24</text><text x="712.0" y="398" text-anchor="middle" fill="#898781" font-size="11" style="font-variant-numeric:tabular-nums">Aug 31</text>
-  <path d="M64.0 374.1 L94.9 365.8 L125.7 355.4 L156.6 342.9 L187.4 336.4 L218.3 327.4 L249.1 315.9 L280.0 305.8 L310.9 291.4 L341.7 277.4 L372.6 260.5 L403.4 247.6 L434.3 236.9 L465.1 229.3 L496.0 215.5 L526.9 204.8 L557.7 191.8 L588.6 179.7 L619.4 171.6 L650.3 160.8 L681.1 152.0 L712.0 146.2 L712.0 376 L64.0 376 Z" fill="#2a78d6" fill-opacity="0.1"/>
-  <path d="M64.0 374.1 L94.9 365.8 L125.7 355.4 L156.6 342.9 L187.4 336.4 L218.3 327.4 L249.1 315.9 L280.0 305.8 L310.9 291.4 L341.7 277.4 L372.6 260.5 L403.4 247.6 L434.3 236.9 L465.1 229.3 L496.0 215.5 L526.9 204.8 L557.7 191.8 L588.6 179.7 L619.4 171.6 L650.3 160.8 L681.1 152.0 L712.0 146.2" fill="none" stroke="#2a78d6" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
-  <circle cx="712.0" cy="146.2" r="5" fill="#2a78d6" stroke="#fcfcfb" stroke-width="2"/>
-  <text x="724.0" y="151.2" fill="#0b0b0b" font-size="14" font-weight="600">&#9733; 1,532</text>
+  <path d="M64.0 374.1 L94.9 365.8 L125.7 355.4 L156.6 342.9 L187.4 336.4 L218.3 327.4 L249.1 315.9 L280.0 305.8 L310.9 291.4 L341.7 277.4 L372.6 260.5 L403.4 247.6 L434.3 236.9 L465.1 229.3 L496.0 215.5 L526.9 204.8 L557.7 191.8 L588.6 179.7 L619.4 171.6 L650.3 160.8 L681.1 152.0 L712.0 145.9 L712.0 376 L64.0 376 Z" fill="#2a78d6" fill-opacity="0.1"/>
+  <path d="M64.0 374.1 L94.9 365.8 L125.7 355.4 L156.6 342.9 L187.4 336.4 L218.3 327.4 L249.1 315.9 L280.0 305.8 L310.9 291.4 L341.7 277.4 L372.6 260.5 L403.4 247.6 L434.3 236.9 L465.1 229.3 L496.0 215.5 L526.9 204.8 L557.7 191.8 L588.6 179.7 L619.4 171.6 L650.3 160.8 L681.1 152.0 L712.0 145.9" fill="none" stroke="#2a78d6" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+  <circle cx="712.0" cy="145.9" r="5" fill="#2a78d6" stroke="#fcfcfb" stroke-width="2"/>
+  <text x="724.0" y="150.9" fill="#0b0b0b" font-size="14" font-weight="600">&#9733; 1,534</text>
 </svg>
