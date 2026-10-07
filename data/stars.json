@@ -1,6 +1,6 @@
 {
   "repo": "lexmount/moli",
-  "updated": "2026-10-06",
+  "updated": "2026-10-07",
   "source": "timeline",
   "samples": [
     {
@@ -229,11 +229,15 @@
     },
     {
       "date": "2026-10-05",
-      "stars": 9106
+      "stars": 9105
     },
     {
       "date": "2026-10-06",
-      "stars": 11048
+      "stars": 11056
+    },
+    {
+      "date": "2026-10-07",
+      "stars": 11112
     }
   ]
 }
