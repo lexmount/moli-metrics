@@ -1,7 +1,7 @@
 {
   "repo": "lexmount/moli",
   "updated": "2026-10-14",
-  "source": "snapshot",
+  "source": "timeline",
   "samples": [
     {
       "date": "2026-08-10",
@@ -225,47 +225,47 @@
     },
     {
       "date": "2026-10-04",
-      "stars": 7268
+      "stars": 7267
     },
     {
       "date": "2026-10-05",
-      "stars": 8982
+      "stars": 8981
     },
     {
       "date": "2026-10-06",
-      "stars": 10892
+      "stars": 10891
     },
     {
       "date": "2026-10-07",
-      "stars": 12197
+      "stars": 12196
     },
     {
       "date": "2026-10-08",
-      "stars": 13632
+      "stars": 13631
     },
     {
       "date": "2026-10-09",
-      "stars": 14697
+      "stars": 14695
     },
     {
       "date": "2026-10-10",
-      "stars": 15514
+      "stars": 15512
     },
     {
       "date": "2026-10-11",
-      "stars": 16318
+      "stars": 16316
     },
     {
       "date": "2026-10-12",
-      "stars": 17183
+      "stars": 17181
     },
     {
       "date": "2026-10-13",
-      "stars": 17942
+      "stars": 17938
     },
     {
       "date": "2026-10-14",
-      "stars": 17974
+      "stars": 18000
     }
   ]
 }
